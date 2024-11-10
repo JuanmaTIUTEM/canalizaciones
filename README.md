@@ -10,7 +10,6 @@ Para ejecutar el código siga los siguientes pasos:
 4. Instalar Django en el entorno virtual
    >:_pip install django
 5. Cambiar de rama en repositorio a master, en main esta solo el readme
-   git checkout master
 6. Clonar este repositorio
    >_:git clone https://github.com/JuanmaTIUTEM/canalizaciones.git
 7. Ejecutar proyecto:
