@@ -10,6 +10,7 @@ Para ejecutar el código siga los siguientes pasos:
 4. Instalar Django en el entorno virtual
    >:_pip install django
 5. Cambiar de rama en repositorio a master, en main esta solo el readme
+   git checkout master
 6. Clonar este repositorio
    >_:git clone https://github.com/JuanmaTIUTEM/canalizaciones.git
 7. Ejecutar proyecto:
@@ -29,5 +30,5 @@ Para ejecutar el código siga los siguientes pasos:
    git commit -m "Cambio de nombre en portada"
 11. Subir la nueva rama al repositorio remoto
     git push origin numero_de_control
-12.  Verificar en GitHub.Después de ejecutar git push, tu nueva rama debería aparecer en el repositorio en GitHub. Puedes verificar esto accediendo al repositorio en GitHub y seleccionando la lista de ramas para asegurarte de que la nueva rama esté disponible.
+12. Verificar en GitHub.Después de ejecutar git push, tu nueva rama debería aparecer en el repositorio en GitHub. Puedes verificar esto accediendo al repositorio en GitHub y seleccionando la lista de ramas para asegurarte de que la nueva rama esté disponible.
    
