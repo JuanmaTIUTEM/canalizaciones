@@ -9,24 +9,25 @@ Para ejecutar el código siga los siguientes pasos:
    .\nombre_del_entorno\Scripts\activate
 4. Instalar Django en el entorno virtual
    >:_pip install django
-5. Clonar este repositorio
+5. Cambiar de rama en repositorio a master, en main esta solo el readme
+6. Clonar este repositorio
    >_:git clone https://github.com/JuanmaTIUTEM/canalizaciones.git
-6. Ejecutar proyecto:
+7. Ejecutar proyecto:
    6.1. Acceder a carpeta canalizaciones
         cd canalizaciones
    6.2. Ejecutar instruccion para iniciar servidor y proyecto
         python manage.py runserver
-7. Si no hay ningun detalle, crear una rama con su  numero de control
+8. Si no hay ningun detalle, crear una rama con su  numero de control
    git pull origin main
    git checkout -b numero_de_control 
       Este comando hace dos cosas:
         a. Crea una nueva rama que tendra como nombre numero_de_control (donde este dato se sustituirá por su número de control).
         b. Cambia a esa rama.
-8. Buscar el archivo home.html y modificar con sus datos de estudiante
-9. Añadir los archivos modificados
+9. Buscar el archivo home.html y modificar con sus datos de estudiante
+10. Añadir los archivos modificados
    git add .
    git commit -m "Cambio de nombre en portada"
-10. Subir la nueva rama al repositorio remoto
+11. Subir la nueva rama al repositorio remoto
     git push origin numero_de_control
-11.  Verificar en GitHub.Después de ejecutar git push, tu nueva rama debería aparecer en el repositorio en GitHub. Puedes verificar esto accediendo al repositorio en GitHub y seleccionando la lista de ramas para asegurarte de que la nueva rama esté disponible.
+12.  Verificar en GitHub.Después de ejecutar git push, tu nueva rama debería aparecer en el repositorio en GitHub. Puedes verificar esto accediendo al repositorio en GitHub y seleccionando la lista de ramas para asegurarte de que la nueva rama esté disponible.
    
