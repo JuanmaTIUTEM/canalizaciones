@@ -4,11 +4,60 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hola</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-image: url('https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwcGFyYSUyMHBjfGVufDB8fDB8fHww');
+			background-size: cover;
+			background-position: center;
+		}
+
+		.container {
+			background-color: rgba(255, 255, 255, 0.85); 
+			border-radius: 10px;
+			box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+			padding: 20px;
+			width: 80%;
+			max-width: 400px;
+			text-align: center;
+		}
+
+		h1, h2 {
+			color: #2c3e50;
+		}
+
+		hr {
+			border: none;
+			border-top: 2px solid #3498db;
+			margin: 10px 0;
+			width: 80%;
+		}
+
+		strong {
+			font-size: 0.9em;
+			color: #2980b9;
+		}
+
+		.footer {
+			margin-top: 20px;
+			font-size: 0.9em;
+			color: #009118;
+		}
+	</style>
 </head>
 <body>
-	
-	<h1>Nombre del Alumno: <hr> <strong>{nombreCompleto}</strong></h1>
-	<h2>Número de Control: <hr><strong>{numeroControl}</strong></h2>
-
+	<div class="container">
+		<h1>Nombre del Alumno:<hr><strong>Emmanuel Valencia Vazquez</strong></h1>
+		<h2>Número de Control:<hr><strong>20230111</strong></h2>
+		<h3>Carrera:<hr><strong>Desarrollo de Software</strong></h3>
+		<h4>Grupo:<hr><strong>4-TID-1</strong></h4>
+		<div class="footer">Universidad Tecnologica de Manzanillo</div>
+	</div>
 </body>
 </html>
