@@ -1,14 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hola</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a AutoLimpio</title>
+    <style>
+        /* Fondo y estilo general */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background: linear-gradient(135deg, #4a00e0, #8e2de2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Contenedor principal */
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Título */
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Subtítulo */
+        p {
+            font-size: 1.2em;
+            margin: 10px 0 20px;
+        }
+
+        /* Información personal */
+        .info-box {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            font-size: 1em;
+            text-align: left;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Botón */
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #4a00e0;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Efecto hover */
+        .button:hover {
+            background-color: #8e2de2;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-	
-	<h1>Nombre del Alumno: <hr> <strong>{nombreCompleto}</strong></h1>
-	<h2>Número de Control: <hr><strong>{numeroControl}</strong></h2>
-
+    <div class="container">
+        <h1>AutoLimpio</h1>
+        <p>El cuidado de tu auto, al alcance de un clic</p>
+        
+        <div class="info-box">
+            <p><strong>Nombre:</strong> Ulises Curiel</p>
+            <p><strong>Carrera:</strong> TID</p>
+            <p><strong>Número de Control:</strong> 20220242</p>
+        </div>
+        
+        <a href="#servicios" class="button">Explorar servicios</a>
+    </div>
 </body>
 </html>
