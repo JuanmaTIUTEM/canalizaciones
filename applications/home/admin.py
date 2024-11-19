@@ -4,7 +4,7 @@ from .models import Edades
 # Register your models here.
 #codigo para interactuar con base de datos
 
-admin.register(Edades)
+admin.site.register(Edades)
 
 
 #para que se pueda visualizar el usuario debemos generar un nuevo usuario:
