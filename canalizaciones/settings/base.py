@@ -15,15 +15,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #local apps
-    'applications.psicologos',
-    'applications.tutores',
-    'applications.home',
-    'applications.hpedagogia',
-    'applications.hcanalizaciones',
-    'applications.hbecas',
 
+    'applications.Docentes',  # Agrega las aplicaciones aquí
+    'applications.Becas',
+    'applications.Carreras',
+    'applications.Grupos',
+    'applications.Pedagogos',
+    'applications.psicologos',
+    'applications.encargadosBecas',  # Si es necesario
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
